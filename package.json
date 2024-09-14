@@ -1,0 +1,43 @@
+{
+  
+  "name": "package.json",
+  
+  "private": true,
+  
+  "version": "0.0.0",
+  
+  "type": "module",
+  "homepage": "http://AkshayKulkarni3467.github.io/Anime-project",
+  
+  "scripts": {
+  
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    
+  "dev": "vite",
+  
+    
+  "build": "vite build",
+  
+    
+  "preview": "vite preview"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "vite": "^4.4.5"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "gh-pages": "^6.0.0",
+  
+    
+  "sheryjs": "^1.0.0-beta.0.0.5"
+  
+  }
+}
